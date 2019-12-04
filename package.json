@@ -1,0 +1,24 @@
+{
+  "name": "calculatrice",
+  "version": "1.0.0",
+  "description": "Electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TSiquoir/calculatrice.git"
+  },
+  "author": "Tristan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TSiquoir/calculatrice/issues"
+  },
+  "homepage": "https://github.com/TSiquoir/calculatrice#readme",
+  "devDependencies": {
+    "electron": "^7.1.3",
+    "electron-reload": "^1.5.0"
+  }
+}
