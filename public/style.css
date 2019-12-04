@@ -1,7 +1,8 @@
 .screen {
     background-color: white;
     text-align: right;
-    max-width: 400px;
+    padding: 15px;
+    margin-bottom: 1em;
     
 }
 
@@ -17,16 +18,23 @@
 .btn {
     flex: 0 25%;
     margin: 0.1em;
-    background-color: rgb(133, 133, 133);
+    background-color: rgb(255, 255, 255);
     border: 10px;
     border-top: 30px;
     width: 4em;
     height: 4em;
 }
 
+.btn_symbol {
+    background-color: rgb(68, 68, 68);
+    color: rgb(21, 168, 168);
+    font-weight: bolder;
+    
+}
+
 .background {
   
-    background-color: rgb(37, 2, 2);
+    background-color: rgb(201, 201, 201);
     padding: 1em;
     max-width: 400px;
 }

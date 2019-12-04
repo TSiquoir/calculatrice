@@ -1,7 +1,7 @@
 //Vérifie si c'est un symbole
 
 function isSymbol(value) {
-   return ['/', 'x', '-', '+'].indexOf(value) !== -1
+   return ['/', '*', '-', '+'].indexOf(value) !== -1
 }
 
 function getLastChar() {
@@ -42,7 +42,8 @@ buttons.forEach(element => {
 
         if (value === 'CE') { 
             deleteToScreen()
-        } else if (value === '=') { 
+        } else if (value === '=') {
+            screen.innerHTML = eval(screen.innerHTML)
             // faire le calcul avec la function eval()
         } else {
             addToScreen(value)
